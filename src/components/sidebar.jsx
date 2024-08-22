@@ -37,7 +37,7 @@ const SideBar = ({ menuOpen, onToggle }) => {
               menuOpen ? 'scale-100' : 'scale-0'
             }`}
           >
-            Cast Hour<span className="text-spotify-light">Group</span>
+            Cast Hour<span className="text-spotify-light"> Group </span>
           </p>
         </div>
       </Link>
