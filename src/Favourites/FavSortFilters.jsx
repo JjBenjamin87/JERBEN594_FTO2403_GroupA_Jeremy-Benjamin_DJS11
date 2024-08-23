@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Define filter options for sorting favorites
 const FILTER_OPTIONS = [
   { label: 'All', value: 'all' },
   { label: 'A-Z', value: 'a-z' },
@@ -11,6 +12,7 @@ const FILTER_OPTIONS = [
 const FavSortFilters = ({ handleFavePageFilter, selectedFilter }) => {
   return (
     <div className="flex gap-2">
+      {/* Map through filter options to create filter buttons */}
       {FILTER_OPTIONS.map(({ label, value }) => (
         <button
           key={value}

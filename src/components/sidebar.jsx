@@ -1,9 +1,10 @@
 import React from 'react';
-import { HiHome, HiHeart, HiMicrophone } from 'react-icons/hi';
-import { RxHamburgerMenu } from 'react-icons/rx';
-import { NavLink, Link } from 'react-router-dom';
+import { HiHome, HiHeart, HiMicrophone } from 'react-icons/hi'; // Importing icons for navigation
+import { RxHamburgerMenu } from 'react-icons/rx'; // Importing hamburger menu icon for toggling sidebar
+import { NavLink, Link } from 'react-router-dom'; // Importing routing components
 
 const SideBar = ({ menuOpen, onToggle }) => {
+  // Styles for active navigation link
   const activeStyles = {
     fontWeight: 'bold',
     textDecoration: 'underline',
@@ -16,6 +17,7 @@ const SideBar = ({ menuOpen, onToggle }) => {
         menuOpen ? 'w-66' : 'w-20'
       } text-spotify-light bg-spotify-dark h-screen p-4 pt-6 relative duration-200`}
     >
+      {/* Button to toggle the sidebar */}
       <button
         onClick={onToggle}
         className={`absolute cursor-pointer -right-3 top-9 w-7 border-2 ${
@@ -25,6 +27,7 @@ const SideBar = ({ menuOpen, onToggle }) => {
         <RxHamburgerMenu className={`text-spotify-light ${menuOpen ? 'text-spotify-light' : 'text-spotify-dark'}`} />
       </button>
 
+      {/* Link to the home page with a logo and title */}
       <Link to="/">
         <div className="flex gap-x-4 items-center">
           <HiMicrophone
@@ -42,7 +45,9 @@ const SideBar = ({ menuOpen, onToggle }) => {
         </div>
       </Link>
 
+      {/* Navigation links */}
       <aside>
+        {/* Link to the Explore page */}
         <NavLink
           to="/"
           style={({ isActive }) => (isActive ? activeStyles : null)}
@@ -61,6 +66,7 @@ const SideBar = ({ menuOpen, onToggle }) => {
           </div>
         </NavLink>
 
+        {/* Link to the Favourites page */}
         <NavLink
           to="/Favourites"
           style={({ isActive }) => (isActive ? activeStyles : null)}
