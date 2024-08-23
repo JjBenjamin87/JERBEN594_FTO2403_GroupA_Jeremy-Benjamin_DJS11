@@ -38,4 +38,4 @@ Install dependencies: npm install
 Start the app: npm run dev 
 Acknowledgments
 ---------------
-Special thanks to the open-source communities for their contributions to the techology used.
+Thank you to all the open-source communities for their contributions to the techology used.
