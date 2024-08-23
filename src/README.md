@@ -8,34 +8,34 @@ Cast Hour is an engaging podcast app designed for discovering, filtering, and en
 📦Data
 Data consists of three basic semantic units
 
-SHOW: A specific podcast that contains a single or several SEASON
-SEASON: A collection of EPISODE released across a specific timespan
-EPISODE: Corresponds to a specific MP3 file that user can listen
+* SHOW: A specific podcast that contains a single or several SEASON
+* SEASON: A collection of EPISODE released across a specific timespan
+* EPISODE: Corresponds to a specific MP3 file that user can listen
 Features
 --------
 Show Previews
-Browse through a list of available podcasts with their titles, descriptions, and artwork.
+* Browse through a list of available podcasts with their titles, descriptions, and artwork.
 Filtering
-Filter shows by category (e.g., news, comedy, education, etc.).
+* Filter shows by category (e.g., news, comedy, education, etc.).
 Favorites
-Add shows to a favorites page for easy access.
+* Add shows to a favorites page for easy access.
 Technology Stack
 ------------------
 Frontend
-HTML: Used for structuring content.
-Tailwind CSS: Used for responsive design and styling.
-JavaScript: Used for dynamic client-side functionality.
-React: Used for building reusable UI components.
+* HTML: Used for structuring content.
+* Tailwind CSS: Used for responsive design and styling.
+* JavaScript: Used for dynamic client-side functionality.
+* React: Used for building reusable UI components.
 Contact
 ---------
-Developer: Jeremy Benjamin
-Email: jeremybenjamin17@gmail.com
-LinkedIn: [https://www.linkedin.com/in/jeremy-benjamin-97296a2bb/]
+* Developer: Jeremy Benjamin
+* Email: jeremybenjamin17@gmail.com
+* LinkedIn: [https://www.linkedin.com/in/jeremy-benjamin-97296a2bb/]
 Getting the Application Started
 ---------------
-Clone the repository:
-Install dependencies: npm install
-Start the app: npm run dev 
+1. Clone the repository:
+2. Install dependencies: npm install
+3. Start the app: npm run dev 
 Acknowledgments
 ---------------
 Thank you to all the open-source communities for their contributions to the techology used.
