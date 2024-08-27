@@ -35,7 +35,7 @@ Getting the Application Started
 ---------------
 1. Clone the repository:
 2. Install dependencies: npm install
-3. Start the app: npm run dev 
+3. Start the app: npm run preview 
 Acknowledgments
 ---------------
 Thank you to all the open-source communities for their contributions to the techology used.
